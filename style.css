@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NotoSansDisplay_Condensed-Black';
+    src: url(assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Black.ttf);
+}
+
+
+@font-face {
+    font-family: 'NotoSansDisplay-Regular';
+    src: url(assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.ttf);
+}
+
+body{
+    background-color: rgb(140, 214, 146);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'NotoSansDisplay_Condensed-Black';
+    color: white;
+    font-size: 2em;
+    margin-bottom: 3%;
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    font-family:  'NotoSansDisplay-Regular';
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.205);
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.field input {
+    width: 120px;
+    padding: 4px 8px;
+    font-size: 0.7em;
+    border-radius: 3px;
+    border: 1px solid rgb(33, 68, 35);
+}
+
+button{
+    margin-left: 1%;
+    padding-bottom: 7px;
+    padding-top: 7px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-color: rgb(174, 218, 177);
+    border: 1px solid rgb(106, 153, 109);
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(150, 200, 152);
+}
+
+#phrase{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+#result{
+    font-size: 1.3em;
+    margin-left: 1%;
+    margin-top: 5%;
+}
